@@ -43,7 +43,7 @@ questions: {
 
     fourth: {  // was: third
         text: "کیا آپ 14 فروری 2026 کو میرے ویلنٹائن بنیں گے؟ 🌹",
-        yesBtn: "Yes!",
+        yesBtn: "YES??? obviously???",
         noBtn: "No, I'm Lame"
     }
 },
