@@ -40,9 +40,20 @@
             </div>
         </div>
 
-        <!-- Second Question (Love Meter) -->
-        <div class="question-section hidden" id="question2">
+        <!-- Second Question -->
+        <div class="question-section" id="question2">
             <h2 id="question2Text"></h2>
+            <button class="cute-btn" onclick="moveButton(this)" id="yesBtn2"></button>
+            <button class="cute-btn" onclick="moveButton(this)" id="noBtn2"></button>
+            <!-- CUSTOMIZE: Secret answer text -->
+            <div class="secret-answer2">
+                <button class="cute-btn special" onclick="showNextQuestion(3)" id="secretAnswerBtn2"></button>
+            </div>
+        </div>
+        
+        <!-- Third Question (Love Meter) -->
+        <div class="question-section hidden" id="question3">
+            <h2 id="question3Text"></h2>
             <!-- Love meter settings: min="0" max="10000" -->
             <div class="love-meter">
                 <input type="range" min="0" max="10000" value="100" class="slider" id="loveMeter">
@@ -51,14 +62,14 @@
                     <span id="extraLove" class="hidden"></span>
                 </p>
             </div>
-            <button class="cute-btn" onclick="showNextQuestion(3)" id="nextBtn"></button>
+            <button class="cute-btn" onclick="showNextQuestion(4)" id="nextBtn"></button>
         </div>
 
         <!-- Final Question -->
-        <div class="question-section hidden" id="question3">
-            <h2 id="question3Text"></h2>
-            <button class="cute-btn final-yes" onclick="celebrate()" id="yesBtn3"></button>
-            <button class="cute-btn" onclick="moveButton(this)" id="noBtn3"></button>
+        <div class="question-section hidden" id="question4">
+            <h2 id="question4Text"></h2>
+            <button class="cute-btn final-yes" onclick="celebrate()" id="yesBtn4"></button>
+            <button class="cute-btn" onclick="moveButton(this)" id="noBtn4"></button>
         </div>
 
         <!-- CUSTOMIZE: Celebration message -->
