@@ -22,10 +22,10 @@ const CONFIG = {
     // Customize each question and its possible responses
 questions: {
     first: {   // 🌟 NEW TOP QUESTION
-        text: "کیا میں تمہیں خاص لگتا ہوں؟ 💖",
-        yesBtn: "ہاں 🥰",
-        noBtn: "تھوڑا سا 🙈",
-        secretAnswer: "تم میرے لیے سب سے خاص ہو ❤️"
+        text: "Kehte hain chaand khoobsurat hota hai, magar sach to yeh hai ke maine aap ko dekh liya hai",
+        yesBtn: "Wow 🙈 ",
+        noBtn: "Lame",
+        secretAnswer: "Wah, kya line hai, main toh tum pe mar gayi hoon (OUCH OUCH)"
     },
 
     second: {  // was: first
