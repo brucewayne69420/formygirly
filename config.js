@@ -46,7 +46,7 @@ questions: {
         yesBtn: "Yes!",
         noBtn: "No, I'm Lame"
     }
-}
+},
 
     // Love meter messages
     // They show up depending on how far they slide the meter
