@@ -20,24 +20,33 @@ const CONFIG = {
 
     // Questions and answers
     // Customize each question and its possible responses
-    questions: {
-        first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I loooooove you! ❤️"           // Secret hover message
-        },
-        second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
-        },
-        third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
-        }
+questions: {
+    first: {   // 🌟 NEW TOP QUESTION
+        text: "کیا میں تمہیں خاص لگتا ہوں؟ 💖",
+        yesBtn: "ہاں 🥰",
+        noBtn: "تھوڑا سا 🙈",
+        secretAnswer: "تم میرے لیے سب سے خاص ہو ❤️"
     },
+
+    second: {  // was: first
+        text: "Do you like me?",
+        yesBtn: "Yes",
+        noBtn: "No",
+        secretAnswer: "I don't like you, I loooooove you! ❤️"
+    },
+
+    third: {   // was: second
+        text: "How much do you love me?",
+        startText: "This much!",
+        nextBtn: "Next ❤️"
+    },
+
+    fourth: {  // was: third
+        text: "کیا آپ 14 فروری 2026 کو میرے ویلنٹائن بنیں گے؟ 🌹",
+        yesBtn: "Yes!",
+        noBtn: "No, I'm Lame"
+    }
+}
 
     // Love meter messages
     // They show up depending on how far they slide the meter
