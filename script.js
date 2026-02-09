@@ -66,16 +66,22 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('yesBtn1').textContent = config.questions.first.yesBtn;
     document.getElementById('noBtn1').textContent = config.questions.first.noBtn;
     document.getElementById('secretAnswerBtn').textContent = config.questions.first.secretAnswer;
+
+    // Set first question texts
+    document.getElementById('question2Text').textContent = config.questions.second.text;
+    document.getElementById('yesBtn2').textContent = config.questions.second.yesBtn;
+    document.getElementById('noBtn2').textContent = config.questions.second.noBtn;
+    document.getElementById('secretAnswerBtn2').textContent = config.questions.second.secretAnswer;
     
     // Set second question texts
-    document.getElementById('question2Text').textContent = config.questions.second.text;
-    document.getElementById('startText').textContent = config.questions.second.startText;
-    document.getElementById('nextBtn').textContent = config.questions.second.nextBtn;
+    document.getElementById('question3Text').textContent = config.questions.third.text;
+    document.getElementById('startText').textContent = config.questions.third.startText;
+    document.getElementById('nextBtn').textContent = config.questions.third.nextBtn;
     
     // Set third question texts
-    document.getElementById('question3Text').textContent = config.questions.third.text;
-    document.getElementById('yesBtn3').textContent = config.questions.third.yesBtn;
-    document.getElementById('noBtn3').textContent = config.questions.third.noBtn;
+    document.getElementById('question4Text').textContent = config.questions.fourth.text;
+    document.getElementById('yesBtn4').textContent = config.questions.fourth.yesBtn;
+    document.getElementById('noBtn4').textContent = config.questions.fourth.noBtn;
 
     // Create initial floating elements
     createFloatingElements();
